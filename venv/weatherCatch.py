@@ -36,6 +36,3 @@ if __name__ == '__main__':
     workBook = xlwt.Workbook(encoding='utf-8')
     workSheet = workBook.add_sheet("My worksheet")
     getPageWeather(html)
-
-    # file_csv = csv.writer(file)
-    # file_csv.writerow(titles)
